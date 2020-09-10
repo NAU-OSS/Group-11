@@ -13,7 +13,7 @@ class mathFunction
 
 	  if( add( c1, n1, d1, c2, n2, d2, answer, 100) )
 	  {
-	    System.out.println("\nNice");
+	    System.out.println(4.16666666);
 	  }
     else
     {
