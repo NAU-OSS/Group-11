@@ -24,7 +24,7 @@ class mathFunction
     {
       System.out.println("There is an error!");
     }
-	}
+   }
 
 	//Function Declaration for add()
 	public static boolean add(int c1, int n1, int d1, int c2, int n2, int d2, char result[], int len)
