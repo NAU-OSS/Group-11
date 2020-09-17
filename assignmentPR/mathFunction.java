@@ -31,7 +31,16 @@ class mathFunction
 	{
 		// sets index for the function
 	  int index = 0;
+
 		// Checks if index is less than the len
+
+		
+// 		while(index < len ){
+// 			result[index] = (char) c1;
+// 		if
+// 		index++;
+// 		}
+		
 	  if( index < len )
 	  {
 		result[0] = (char)c1;
@@ -81,7 +90,8 @@ class mathFunction
 		// Wanted return value
 	    return true;
 	  }
-	  // Failing return value
+	// Failing return value
+
 	  return false;
 	}
 	//bool subtract(int c1, int n1, int d1, int c2, int n2, int d2, char result[], int len);
