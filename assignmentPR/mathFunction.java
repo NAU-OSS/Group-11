@@ -11,7 +11,7 @@ class mathFunction
 	  int c2 = 2;
 	  int n2 = 2;
 	  int d2 = 3;
-  	char d3;
+    char d3;
 
 		// Checking if the function works successfully
 	  if( add( c1, n1, d1, c2, n2, d2, answer, 100) )
