@@ -42,55 +42,55 @@ class mathFunction
 // 		}
 
 	  if( index < len )
-	  {
-			result[0] = (char)c1;
-			//Incrementing the index
-			index++;
-			// Checks if index is less than the len
-	    if( index < len )
-	    {
-		  	result[1] = (char)n1;
-		  	//Incrementing the index
-		  	index++;
-		  	// Checks if index is less than the len
-	      if( index < len )
-	      {
-					result[2] = (char)d1;
-					//Incrementing the index
-					index++;
-					// Checks if index is less than the len
-	        if( index < len )
-	        {
-			  		result[3] = (char)c2;
-			  		//Incrementing the index
-			  		index++;
-			  		// Checks if index is less than the len
-	          if( index < len )
-	          {
-							result[4] = (char)n2;
-							//Incrementing the index
-							index++;
-							// Checks if index is less than the len
-	            if( index < len )
-	            {
-				  			result[5] = (char)d2;
-				  			//Incrementing the index
-				  			index++;
-				  			// Checks if index is less than the len
+    {
+      result[0] = (char)c1;
+      //Incrementing the index
+      index++;
+      // Checks if index is less than the len
+      if( index < len )
+      {
+        result[1] = (char)n1;
+        //Incrementing the index
+        index++;
+        // Checks if index is less than the len
+        if( index < len )
+        {
+          result[2] = (char)d1;
+          //Incrementing the index
+          index++;
+          // Checks if index is less than the len
+          if( index < len )
+          {
+            result[3] = (char)c2;
+            //Incrementing the index
+            index++;
+            // Checks if index is less than the len
+            if( index < len )
+            {
+              result[4] = (char)n2;
+              //Incrementing the index
+              index++;
+              // Checks if index is less than the len
+              if( index < len )
+              {
+                result[5] = (char)d2;
+                //Incrementing the index
+                index++;
+                // Checks if index is less than the len
                 if( index < len )
                 {
-									// Adding final value to the array as specified in the documentaion for the function
+                  // Adding final value to the array as specified in the documentaion for the function
                   result[6] = '\0';
                 }
-	            }
-	          }
-	        }
-	      }
-			}
-	  // Wanted return value
-	  return true;
-	  }
-	// Failing return value
-	return false;
-	}
+              }
+            }
+          }
+        }
+      }
+    // Wanted return value
+    return true;
+  }
+  // Failing return value
+  return false;
+  }
 }
