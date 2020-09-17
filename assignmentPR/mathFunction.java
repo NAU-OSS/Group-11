@@ -87,7 +87,7 @@ class mathFunction
 	        }
 	      }
 			}
-		// Wanted return value
+	  // Wanted return value
 	  return true;
 	  }
 	// Failing return value
