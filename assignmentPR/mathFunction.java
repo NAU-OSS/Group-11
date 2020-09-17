@@ -11,9 +11,9 @@ class mathFunction
 	  int c2 = 2;
 	  int n2 = 2;
 	  int d2 = 3;
-  	char d3;
+    char d3;
 
-		// Checking if the function works successfully
+    // Checking if the function works successfully
 	  if( add( c1, n1, d1, c2, n2, d2, answer, 100) )
 	  {
 		  //Print Statement
@@ -24,11 +24,11 @@ class mathFunction
     {
       System.out.println("There is an error!");
     }
-	}
+  }
 
 	//Function Declaration for add()
-	public static boolean add(int c1, int n1, int d1, int c2, int n2, int d2, char result[], int len)
-	{
+  public static boolean add(int c1, int n1, int d1, int c2, int n2, int d2, char result[], int len)
+  {
 		// sets index for the function
 	  int index = 0;
 
@@ -42,55 +42,55 @@ class mathFunction
 // 		}
 
 	  if( index < len )
-	  {
-			result[0] = (char)c1;
-			//Incrementing the index
-			index++;
-			// Checks if index is less than the len
-	    if( index < len )
-	    {
-		  	result[1] = (char)n1;
-		  	//Incrementing the index
-		  	index++;
-		  	// Checks if index is less than the len
-	      if( index < len )
-	      {
-					result[2] = (char)d1;
-					//Incrementing the index
-					index++;
-					// Checks if index is less than the len
-	        if( index < len )
-	        {
-			  		result[3] = (char)c2;
-			  		//Incrementing the index
-			  		index++;
-			  		// Checks if index is less than the len
-	          if( index < len )
-	          {
-							result[4] = (char)n2;
-							//Incrementing the index
-							index++;
-							// Checks if index is less than the len
-	            if( index < len )
-	            {
-				  			result[5] = (char)d2;
-				  			//Incrementing the index
-				  			index++;
-				  			// Checks if index is less than the len
+    {
+      result[0] = (char)c1;
+      //Incrementing the index
+      index++;
+      // Checks if index is less than the len
+      if( index < len )
+      {
+        result[1] = (char)n1;
+        //Incrementing the index
+        index++;
+        // Checks if index is less than the len
+        if( index < len )
+        {
+          result[2] = (char)d1;
+          //Incrementing the index
+          index++;
+          // Checks if index is less than the len
+          if( index < len )
+          {
+            result[3] = (char)c2;
+            //Incrementing the index
+            index++;
+            // Checks if index is less than the len
+            if( index < len )
+            {
+              result[4] = (char)n2;
+              //Incrementing the index
+              index++;
+              // Checks if index is less than the len
+              if( index < len )
+              {
+                result[5] = (char)d2;
+                //Incrementing the index
+                index++;
+                // Checks if index is less than the len
                 if( index < len )
                 {
-									// Adding final value to the array as specified in the documentaion for the function
+                  // Adding final value to the array as specified in the documentaion for the function
                   result[6] = '\0';
                 }
-	            }
-	          }
-	        }
-	      }
-			}
-	  // Wanted return value
-	  return true;
-	  }
-	// Failing return value
-	return false;
-	}
+              }
+            }
+          }
+        }
+      }
+    // Wanted return value
+    return true;
+  }
+  // Failing return value
+  return false;
+  }
 }
