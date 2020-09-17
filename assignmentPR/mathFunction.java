@@ -11,7 +11,7 @@ class mathFunction
 	  int c2 = 2;
 	  int n2 = 2;
 	  int d2 = 3;
-    	char d3;
+  	char d3;
 
 		// Checking if the function works successfully
 	  if( add( c1, n1, d1, c2, n2, d2, answer, 100) )
@@ -34,66 +34,63 @@ class mathFunction
 
 		// Checks if index is less than the len
 
-		
+
 // 		while(index < len ){
 // 			result[index] = (char) c1;
 // 		if
 // 		index++;
 // 		}
-		
+
 	  if( index < len )
 	  {
-		result[0] = (char)c1;
-		//Incrementing the index
-		index++;
-		// Checks if index is less than the len
-	    if( index < len )
-	    {
-		  result[1] = (char)n1;
-		  //Incrementing the index
-		  index++;
-		  // Checks if index is less than the len
-	      if( index < len )
-	      {
-			result[2] = (char)d1;
+			result[0] = (char)c1;
 			//Incrementing the index
 			index++;
 			// Checks if index is less than the len
+	    if( index < len )
+	    {
+		  	result[1] = (char)n1;
+		  	//Incrementing the index
+		  	index++;
+		  	// Checks if index is less than the len
+	      if( index < len )
+	      {
+					result[2] = (char)d1;
+					//Incrementing the index
+					index++;
+					// Checks if index is less than the len
 	        if( index < len )
 	        {
-			  result[3] = (char)c2;
-			  //Incrementing the index
-			  index++;
-			  // Checks if index is less than the len
+			  		result[3] = (char)c2;
+			  		//Incrementing the index
+			  		index++;
+			  		// Checks if index is less than the len
 	          if( index < len )
 	          {
-				result[4] = (char)n2;
-				//Incrementing the index
-				index++;
-				// Checks if index is less than the len
+							result[4] = (char)n2;
+							//Incrementing the index
+							index++;
+							// Checks if index is less than the len
 	            if( index < len )
 	            {
-				  result[5] = (char)d2;
-				  //Incrementing the index
-				  index++;
-				  // Checks if index is less than the len
+				  			result[5] = (char)d2;
+				  			//Incrementing the index
+				  			index++;
+				  			// Checks if index is less than the len
                 if( index < len )
                 {
-					// Adding final value to the array as specified in the documentaion for the function
+									// Adding final value to the array as specified in the documentaion for the function
                   result[6] = '\0';
                 }
 	            }
 	          }
 	        }
 	      }
-		}
+			}
 		// Wanted return value
-	    return true;
+	  return true;
 	  }
 	// Failing return value
-
-	  return false;
+	return false;
 	}
-	//bool subtract(int c1, int n1, int d1, int c2, int n2, int d2, char result[], int len);
-
 }
