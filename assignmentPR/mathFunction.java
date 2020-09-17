@@ -13,7 +13,7 @@ class mathFunction
 	  int d2 = 3;
     char d3;
 
-		// Checking if the function works successfully
+    // Checking if the function works successfully
 	  if( add( c1, n1, d1, c2, n2, d2, answer, 100) )
 	  {
 		  //Print Statement
