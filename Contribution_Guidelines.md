@@ -12,7 +12,7 @@
 
 Contributors are able to make pull requests without restrictions, however requests done in an extraneous format will be closed. We ask that you:
 
-1. Tag the issue number you have solved (#[issue\_nuber])
+1. Tag the issue number you have solved (#[issue\_number])
 2. Describe your change in detail
 3. Describe how you tested the change
 4. Ensure your markdown is properly rendered
