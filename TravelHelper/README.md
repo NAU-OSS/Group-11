@@ -4,7 +4,7 @@
 
 TravelHelperis a free, open source software designed to keep people safe in today&#39;s hectic world due with COVID-19 by providing a centralized point of COVID related travel information. It uses an effective parsing algorithm to extract the most relevant information from officially sponsored websites and displays them comprehensively to the user.
 
-_ **During a time when it is so difficult to find accurate and current travel information regarding the pandemic, TravelHelper puts it all in one place.** _
+  ***During a time when it is so difficult to find accurate and current travel information regarding the pandemic, TravelHelper puts it all in one place.***
 
 **How do I get started?**
 
