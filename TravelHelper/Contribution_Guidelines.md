@@ -2,11 +2,11 @@
 
 **Installation**
 
-1. Read ReadMe
+1. Read ReadMe :information_desk_person:
 
-1. Clone of fork the repository
+1. Clone of fork the repository :sun_with_face: :sun_with_face:
 
-1. Make some changes :)!
+1. Make some changes :)! :v:
 
 **To Create a Pull Request**
 
